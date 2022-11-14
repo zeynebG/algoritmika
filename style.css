@@ -3,38 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
-
-.main{
-    width: 600px;
-    height: 500px;
-    font-family: 'Lato', sans-serif;
-    background-color: lavender;
-    margin: 130px;
-    padding: 30px;
-    border-radius: 10px;
+body{
+    background-image: url(/d86824d90d28c7e10dbba99942d9a4e0.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-left: 30px;
+    margin-right: 30px;
 }
-hr{
-    color: black;
+.heading{
+    color: cadetblue;
+    font-size: 32px;
+    margin-top: 20px;
 }
-.row{
+.list{
+    list-style-type: none;
+    color: cadetblue;
+    font-size: 19px;
     display: flex;
+    gap: 40px;
+    margin-top: 15px;
+
+}
+.firstRow{
+    display:flex;
     justify-content: space-between;
-
 }
-h3{
-    padding: 10px;
-    margin: 15px;
+.centerText{
+    text-align: center;
+    color: cadetblue;
+    font-size: 40px;
+    margin-top: 350px;
 }
-a{
-    display: inline-block;
-    width: 65%;
-    padding: 10px;
-    margin: 15px;
-}
-h2{
-    padding: 10px;
-    margin: 15px;
-}
-
-
